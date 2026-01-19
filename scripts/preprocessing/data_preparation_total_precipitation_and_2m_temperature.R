@@ -18,7 +18,7 @@ library(readxl)
 
 #### Data loading ####
 
-ERA5_grib_file <- "ERA5.grib"
+ERA5_grib_file <- "data/raw/country_specific/total_precipitation_and_2m_temperature/ERA5.grib"
 
 # terra should find out atuomatically the variables and time steps within the grib file.
 # rast builds a SpatRaster object with many layers where each layer is a combination of: variable + timestamp.
